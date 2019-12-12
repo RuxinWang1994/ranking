@@ -1,6 +1,11 @@
 package com.example.ranking.model;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 public class repo {
@@ -28,6 +33,10 @@ public class repo {
 	}
 	public boolean exist(Integer id) {
 		return eventsMap.containsKey(id);
+	}
+	
+	public HashMap<Integer, event> getAllEvents() {
+		return eventsMap;
 	}
 	
 }

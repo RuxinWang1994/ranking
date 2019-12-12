@@ -23,12 +23,6 @@ public class eventsRepo {
 	}
 
 	public repo getAllEvents() {
-		List<HashMap.Entry<Integer,event>> list = new ArrayList<HashMap.Entry<Integer, event>>(((Map<Integer, event>) map).entrySet());
-		Collections.sort(list,new Comparator<HashMap.Entry<Integer, event>>(){
-			public int compare(HashMap.Entry<Integer, event>o1, HashMap.Entry<Integer, event>o2) {
-				return o1.getValue().getTime().compareTo(o2.getValue().getTime());
-			}
-		});
 		return map;
 	}
 	public void addEvent(event event) {

@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 This application creates REST APIs to solve these requirements:
 
-1. Delete
-2. Update
-3. GetById
-4. GetAll
+1. Delete all events
+2. Get all events
+3. Save a events (higher score)
+4. Get Events By Id
 
 ## Technologies
 
@@ -27,10 +27,10 @@ Deploy: mvn spring-boot:run
 
 ## Examples for each call
 
-{{URL}}/employees
-{{URL}}/employees/employee/1
-{{URL}}/employee
 {{URL}}/erase
+{{URL}}/events
+{{URL}}/eventsput
+{{URL}}/events/{id}
 
 To facilitate the execution of the calls:
 

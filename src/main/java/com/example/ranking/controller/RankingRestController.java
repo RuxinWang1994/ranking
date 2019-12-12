@@ -58,7 +58,7 @@ public class RankingRestController {
 	 * @param eventDTO
 	 * @return {@link ResponseEntity}
 	 */
-	@PostMapping(path = "/events", consumes = "application/json")
+	@PostMapping(path = "/eventsput", consumes = "application/json")
 	public ResponseEntity<Void> saveEvent(@RequestBody event event) {
 		eventService.save(event);
 		return ResponseEntity.status(CREATED).build();
