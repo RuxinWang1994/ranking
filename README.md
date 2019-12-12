@@ -16,7 +16,7 @@ This application creates REST APIs to solve these requirements:
 ## Technologies
 
 - Java 8
-- Spring Boot 2.1.3.RELEASE
+- Spring Boot
 - REST API
 
 ## How to compile and run the application with an example for each call
